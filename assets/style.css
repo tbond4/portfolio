@@ -1,0 +1,73 @@
+:root{
+    --grey:#445877;
+    --blue:#92ccce;
+    --darkgrey:#31343d;
+    --black:#1c1d21;
+    --white:#eeeef7;
+}
+
+html{
+    font-size: 90%;
+    background-color: var(--white);
+}
+
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' ;
+    background-color: var(--white);
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    padding:5px;
+    margin-top: 10px;
+    width:fit-content;
+    background-color: var(--blue);
+    color:var(--grey);
+    float:left;
+    
+}
+.header-container{
+    background-color: var(--grey);
+    width:100%;
+    height:8rem;
+    
+}
+nav{
+    color:var(--grey);
+    background-color: var(--blue);
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:5px;
+}
+
+
+main{
+    background-color: var(--white);
+    clear:both;
+    
+}
+.about-me{
+
+}
+.work{
+
+}
+
+}
+.contact-me {
+    font-style: underline;
+    background-color: var(--cyan);
+    color:var(--grey);
+}
+.header{
+    font-size: 2rem;
+    margin-left:19vw;
+    color: var(--grey);
+    margin-top: 18px;
+}
