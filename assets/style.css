@@ -52,22 +52,39 @@ main{
     clear:both;
     
 }
+.header{
+    font-size: 2rem;
+    margin-left:12vw;
+    color: var(--grey);
+    width:fit-content;
+    height:6rem ;
+    margin-right:0; 
+    padding-right: 0;  
+}
 .about-me{
+    margin: 3% 0%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.about-me p{ 
+    width:fit-content;
+    padding:5px;
+    color:var(--grey);
+    margin-right: 5%;
+    margin-left: 0%;
+    padding-left: 3.5%;
+    border-left: 3.5px solid;
+    border-color: var(--grey);
+    
 
+    
 }
 .work{
-
+    
 }
 
 }
 .contact-me {
-    font-style: underline;
-    background-color: var(--cyan);
-    color:var(--grey);
+    
 }
-.header{
-    font-size: 2rem;
-    margin-left:19vw;
-    color: var(--grey);
-    margin-top: 18px;
-}
+
