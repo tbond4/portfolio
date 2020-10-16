@@ -6,9 +6,11 @@
     --white:#eeeef7;
 }
 
+
 html{
     font-size: 90%;
     background-color: var(--white);
+
 }
 
 body{
@@ -59,7 +61,7 @@ main{
     width:fit-content;
     height:6rem ;
     margin-right:0; 
-    padding-right: 0;  
+    padding-right:0;  
 }
 .about-me{
     margin: 3% 0%;
@@ -80,11 +82,62 @@ main{
     
 }
 .work{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.work-block{
+ flex:1 0 200px;
+ border:5px solid;
+ border-color: var(--grey);;
+ 
+ 
+}
+
+
+.contact-me {
+    display:flex;
+    flex-direction: row;
+    justify-content:start;
+    color: var(--grey);
+    margin: 3% 0% 4% 0%;
+
+    
+}
+.contact-me h2{
+    font-size: 2rem;
+    margin-left:12vw;
+    color: var(--grey);
+    width:4%;
+    height:6rem ;
+    margin-right:0; 
+    padding-right:0; 
+    
+}
+.contact-content{
+    width:75%;
+    display:flex;
+    justify-content: space-evenly;
+    color: var(--grey);
+    margin: 0% 0% 4% 0%;
+}
+.contact-content p{
+    margin-left: 0;
+    padding: 3.5%;
+    border-left: 3.5px solid;
+    border-color: var(--grey);
+    width:fit-content;
+    text-decoration: underline;
+    margin-right: 5px;
+   
+}
+.contact-content a {
+    color: var(--grey);
+    width:fit-content;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 3.5%;
     
 }
 
-}
-.contact-me {
-    
-}
 
