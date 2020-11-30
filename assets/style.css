@@ -92,11 +92,12 @@ main{
     object-fit: cover;
 }
 .work{
-    display:flex;
+    background-color: var(--white); 
+    /* display:flex;
     justify-content:row;
     margin-left: 12vw;
     flex-shrink: 0;
-    flex-direction: row;
+    flex-direction: row; */
 }
 .work h2{
     margin-right:2vw;
@@ -113,14 +114,18 @@ main{
     
 }
 
-.work-block{
+.customBlk{
     width:400px;
     min-width: 350px;
+    height:400px;
     flex-shrink: 0;
     margin:5px;
     align-items:center;
 }
-
+.mainBlk{
+    width:700px;
+    height:400px;
+}
 .image{
     height: 400px;
     width: 400px;
@@ -134,7 +139,7 @@ main{
 .main-work-block{
     width:700px;
 }
-.main-work-block .image{
+.mainBlk .image{
     width:700px;
 }
 .box-title{
@@ -186,7 +191,7 @@ main{
     margin-left: 0;
     padding: 3.5%;
     width:fit-content;
-    text-decoration: underline;
+    
     margin-right: 5px;
    
 }
