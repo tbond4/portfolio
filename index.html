@@ -14,82 +14,95 @@
         <div class="container">
           <h1 class="display-4 font-weight-bold">Tristan Bond</h1>
         </div>
-      </div>
-
-        <!-- <h1>Tristan Bond</h1>
-        <div class=header-container></div> -->
-        
+      </div>    
     </header>
 
     <main>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#about">About me</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg  customNav">
+            <a class="navbar-brand" href="#about">About Me</a>
+            <button class="navbar-toggler customBtn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon customBtn"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#work">Work<span class="sr-only">(current)</span> </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact-me">Contact</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+              
               </ul>
             </div>
           </nav>
 
-        <!-- <nav>
-            <a class="nav-about" href="#about">About me</a>
-            <a class="nav-work" href="#work">Work</a>
-            <a class="nav-contact" href="#contact-me">Contact </a>  
-        </nav> -->
-        
-            <section class="about-me" id="about-me">
-                <h2 class="header">About Me</h2>
-                <p>Hello! I am a 23 year old web developer currently living in Lacey, WA. I have a degree in Philosophy and a certificate from University of Washingtons 
+     <section class="about-me" id="about-me">
+          <div class="card mb-3 about-me" style="max-width: 100%;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <h5 class="card-title">About Me</h5>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">Hello! I am a 23 year old web developer currently living in Lacey, WA. I have a degree in Philosophy and a certificate from University of Washingtons 
                     Full Stack coding bootcamp. When im not writing code im outside cycling, hiking or finding someway to enjoy the outdoors. An avid meditator I am constantly looking
-                    for ways to challenge and improve myself.
-
-                </p>
-                <img id="about-pic" src="assets/GradPic.jpg">
-              
-            </section>
+                    for ways to challenge and improve myself.</p>
+                    <img id="about-pic" src="assets/GradPic.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+     </section>
 
             <section class="work" id="work">
-                <h2 class="header">Work</h2>
-                <div class="blocks">
-                    <div class="work-block main-work-block"  >
-                        <a href="https://lauragwendolynburch.github.io/Pub-Lish/" target="blank"><img class="image" src="assets/PubLish.png"  ></a>
-                        <div class="box-title">Pub-Lish</div>
-                    </div>
 
-                    <div class="work-block">
-                        <a href="https://tbond4.github.io/weather-dashboard/" target="blank"><img class="image" src="assets/WeatherForcast.png"  ></a>
-                        <div class="box-title">Weather Dashboard</div>
-                    </div>
+                <div class="card mb-3 about-me" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <h5 class="card-title">Work</h5>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body blocks">
 
-                    <div class="work-block">
-                        <a href="https://tbond4.github.io/daily-work-schedule/" target="blank"><img class="image" src="assets/DailySchedule.png"  ></a>
-                        <div class="box-title">Daily Work Schedule</div>
-                    </div>
+                            <div class="card bg-dark text-white work-block">
+                                <a href="https://lauragwendolynburch.github.io/Pub-Lish/" target="blank"></a><img src="assets/PubLish.png" class="card-img image" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title box-title">Pub-Lish</h5>
+                                </div>
+                              </div>
 
-                    <div class="work-block">
-                        <a href="https://www.trekbikes.com/us/en_US/" target="blank"><img class="image" src="assets/image4.jpeg"  ></a>
-                        <div class="box-title">Future project 4</div>
-                    </div>
+                              <div class="card bg-dark text-white work-block">
+                                <a href="https://tbond4.github.io/weather-dashboard/" target="blank"></a><img src="assets/WeatherForcast.png" class="card-img image" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title box-title">Weather Dashboard</h5>
+                                </div>
+                              </div>
 
-                    <div class="work-block">
-                        <a href="https://neuralink.com/" target="blank"><img class="image" src="assets/image5.jpeg"  ></a>
-                        <div class="box-title">Future project 5</div>
+                              <div class="card bg-dark text-white work-block">
+                                <a href="https://tbond4.github.io/daily-work-schedule/" target="blank"></a><img src="assets/DailySchedule.png" class="card-img image" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title box-title">Pub-Lish</h5>
+                                </div>
+                              </div>
+
+                              <div class="card bg-dark text-white work-block">
+                                <a href="https://www.trekbikes.com/us/en_US/" target="blank"></a><img src="assets/image4.jpeg" class="card-img image" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title box-title">Pub-Lish</h5>
+                                </div>
+                              </div>
+
+                              <div class="card bg-dark text-white work-block">
+                                <a href="https://neuralink.com/" target="blank"></a><img src="assets/image5.jpeg" class="card-img image" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title box-title">Pub-Lish</h5>
+                                </div>
+                              </div>
+
+                        </div>
                     </div>
+                  </div>
                 </div>
             </section>
             

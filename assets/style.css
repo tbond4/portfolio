@@ -38,7 +38,7 @@ h1{
     
     
 }
-nav{
+.customNav{
     color:var(--grey);
     background-color: var(--blue);
     /* font-size: 1.5rem;
@@ -47,11 +47,15 @@ nav{
     justify-content: space-around;
     padding:5px; */
 }
+.customBtn{
+    background-color: var(--grey);
+    color:var(--blue);
+}
 
 
 main{
     background-color: var(--white);
-    clear:both;
+    /* clear:both; */
     
 }
 /* .header{
@@ -63,7 +67,7 @@ main{
     margin-right:0; 
     padding-right:0;  
 } */
-.about-me{
+/* .about-me{
     margin: 3% 0%;
     display:flex;
     justify-content: space-evenly;
@@ -77,6 +81,9 @@ main{
     padding-left: 3.5%;
     border-left: 3.5px solid;
     border-color: var(--grey);  
+} */
+.about-me{
+    background-color: var(--white);
 }
 #about-pic{
     height:200px;
