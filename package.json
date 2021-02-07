@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This page is an active portfolio for me to showcase my work. It is active at: https://tbond4.github.io/portfolio/ This page contains a short about me section working links for work and a contact links. The work section will be the future home of my projects, however for now it holds stock images and links to companies I would like to work for in the future until I have projects to showcase.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbond4/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbond4/portfolio/issues"
+  },
+  "homepage": "https://github.com/tbond4/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
