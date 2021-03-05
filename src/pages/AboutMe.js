@@ -1,5 +1,9 @@
+import LinkList from "../components/LinkList";
+
 function AboutMe(){
-return null
+return (
+<LinkList/>
+);
 }
 
 export default AboutMe;
