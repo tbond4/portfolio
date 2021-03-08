@@ -2,13 +2,13 @@ import LinkList from "../components/LinkList";
 
 function AboutMe(){
 return (
-    <div className="d-flex">
+    <div className="d-flex mb-5"style={{color:"#f0f1ed",backgroundColor:"#939393"}}>
 
-    <div className="card col-9">
+    <div className="card col-9 mb-5"style={{color:"#f0f1ed",backgroundColor:"#939393"}}>
         <div className="card-header">
             About Me
         </div>
-         <div className="card-body">
+         <div className="card-body" style={{color:"#F0F1ED",backgroundColor:"#7D6969"}}>
                 Hello! I am a recent graduate of Colorado State University and the University of Washingtons Full-Stack coding bootcamp. My time in Colorado 
             began by studying Engineering before making the swith to Philosophy after two years. Fascinated by perspective exploration of consciouness my studies
             optimized my crticial and logical thinking. These skills flowed nicely into my web development education and hopefully will continue to help me

@@ -10,7 +10,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <BrowserRouter>
-    <div>
+    <div style={{backgroundColor:"#939393"}}>
     <Header/>
     <Nav/>
     <Switch>

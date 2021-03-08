@@ -4,7 +4,7 @@ function ProjectCard({title, image, desc, link}){
     return(
     <div className="card mb-3 " style={{width:"800px"}}>
         <img src={image} className="card-img-top " alt="..." style={{height:"400px",width:"800px"}}/>
-        <div className="card-body">
+        <div className="card-body"style={{color:"#F0F1ED",backgroundColor:"#7D6969"}}>
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{desc}</p>
           <a href={link} className="btn btn-dark">Visit</a>
