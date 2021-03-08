@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Nav from "./components/Nav"
-import { BrowserRouter, Route} from "react-router-dom";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
 
@@ -12,8 +12,10 @@ function App() {
     <div>
     <Header/>
     <Nav/>
-    <Route exact Path="/" component={Home}/>
-    <Route exact Path="/AboutMe" component={AboutMe}/>
+    <Switch>
+    <Route exact path="/" component={Home}/>
+    <Route exact path="/AboutMe" component={AboutMe}/>
+    </Switch>
     <Footer/>
     </div>
     </BrowserRouter>

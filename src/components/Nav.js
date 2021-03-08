@@ -1,3 +1,5 @@
+import { NavLink} from "react-router-dom";
+
 function Nav(){
 return(
 <nav className="navbar navbar-expand-lg navbar-light bg-light mt-0">
@@ -9,7 +11,7 @@ return(
     <div className="navbar-nav">
     <a className="nav-link active" href="/">Home <span className="sr-only">(current)</span></a>
     <a className="nav-link" href="/projects">Projects</a>
-    <a className="nav-link" href="/AboutMe">About Me</a>
+    <NavLink className="nav-link" to="/AboutMe">About Me</NavLink>
     </div>
     </div>
 </nav>);
