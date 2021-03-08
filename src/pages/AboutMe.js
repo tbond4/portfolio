@@ -9,7 +9,7 @@ return (
             About Me
         </div>
          <div className="card-body">
-                Hello! I am a recent graduate of Colorado State University and the University of Washingtons Full-Stack coding bootcamp. My tim e in Colorado 
+                Hello! I am a recent graduate of Colorado State University and the University of Washingtons Full-Stack coding bootcamp. My time in Colorado 
             began by studying Engineering before making the swith to Philosophy after two years. Fascinated by perspective exploration of consciouness my studies
             optimized my crticial and logical thinking. These skills flowed nicely into my web development education and hopefully will continue to help me
             as I go into my new career field.
