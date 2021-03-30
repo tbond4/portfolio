@@ -1,11 +1,16 @@
+import { Container, Jumbotron } from "react-bootstrap";
+import HeaderPic from "../images/homePic.jpg"
 function Header(){
 return(
-    <div className="jumbotron jumbotron-fluid mb-0" style={{color:"#f0f1ed",backgroundColor:"#939393"}}>
-        <div className="container">
-            <h1 className="display-4">Tristan Bond</h1>
-            <p className="lead">Welcome to my Portfolio</p>
-        </div>
-    </div>
+ 
+    <Jumbotron fluid style={{backgroundImage:`url(${HeaderPic})`, backgroundSize:"cover", backgroundPosition:"center",marginBottom:"0"}}>
+    <Container style={{color:"white"}}>
+      <h1 style={{fontStyle:"bold", fontSize:"4em"}}>Tristan Bond </h1>
+      <p style={{fontStyle:"italic"}}>
+      Memento Mori
+      </p>
+    </Container>
+  </Jumbotron>
 );
 }
 

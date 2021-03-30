@@ -1,15 +1,18 @@
-
+import {Card, Button} from "react-bootstrap"
 
 function ProjectCard({title, image, desc, link}){
     return(
-    <div className="card mb-3 " style={{width:"800px"}}>
-        <img src={image} className="card-img-top " alt="..." style={{height:"400px",width:"800px"}}/>
-        <div className="card-body"style={{color:"#F0F1ED",backgroundColor:"#7D6969"}}>
-          <h5 className="card-title">{title}</h5>
-          <p className="card-text">{desc}</p>
-          <a href={link} className="btn btn-dark">Visit</a>
-        </div>
-      </div>
+    
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={image} />
+      <Card.Body>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>
+          {desc}
+        </Card.Text>
+        <Button variant="primary" href={link}>View</Button>
+      </Card.Body>
+    </Card>
 
     );
 }

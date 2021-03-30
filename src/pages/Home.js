@@ -3,7 +3,8 @@ import workoutBuddies from "../images/workout-buddies.png";
 import LinkList from "../components/LinkList";
 function Home(){
 return (
-<div className="d-flex justify-content-around">
+<div className="d-flex justify-content-around flex-wrap-wrap">
+
     <ProjectCard 
         title="Workout-Buddies"
         desc="Allows authenticated users to create, edit and delete their own workouts as well as view and save workouts created by other users."

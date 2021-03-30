@@ -10,7 +10,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <BrowserRouter>
-    <div style={{backgroundColor:"#939393"}}>
+    <div >
     <Header/>
     <Nav/>
     <Switch>
@@ -18,6 +18,7 @@ function App() {
     <Route exact path="/AboutMe" component={AboutMe}/>
     <Route exact path="/Projects" component={Projects}/>
     </Switch>
+    
     <Footer/>
     </div>
     </BrowserRouter>
