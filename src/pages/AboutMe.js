@@ -2,16 +2,16 @@ import LinkList from "../components/LinkList";
 
 function AboutMe(){
 return (
-    <div className="d-flex mb-5"style={{color:"#f0f1ed",backgroundColor:"#939393"}}>
+    <div className="d-flex mb-5 justify-content-between" style={{color:"#f0f1ed",backgroundColor:"#939393"}}>
 
     <div className="card col-9 mb-5"style={{color:"#f0f1ed",backgroundColor:"#939393"}}>
         <div className="card-header">
             About Me
         </div>
-         <div className="card-body" style={{color:"#F0F1ED",backgroundColor:"#7D6969"}}>
+         <div className="card-body" style={{color:"#F0F1ED",backgroundColor:"#6b5ebf"}}>
                 Hello! I am a recent graduate of Colorado State University and the University of Washingtons Full-Stack coding bootcamp. My time in Colorado 
             began by studying Engineering before making the swith to Philosophy after two years. Fascinated by perspective exploration of consciouness my studies
-            optimized my crticial and logical thinking. These skills flowed nicely into my web development education and hopefully will continue to help me
+            optimized my criticial and logical thinking. These skills flowed nicely into my web development education and hopefully will continue to help me
             as I go into my new career field.
             <br/>
                 My story as person started from growing up in a small town in Washington State. Team sports and school were my focus before finding a love of cycling

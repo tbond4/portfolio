@@ -10,7 +10,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <BrowserRouter>
-    <div >
+    
     <Header/>
     <Nav/>
     <Switch>
@@ -20,7 +20,7 @@ function App() {
     </Switch>
     
     <Footer/>
-    </div>
+   
     </BrowserRouter>
   );
 }
