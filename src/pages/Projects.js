@@ -1,8 +1,10 @@
 import ProjectCard from "../components/ProjectCard";
 import workoutBuddies from "../images/workout-buddies.png";
-import pubLish from "../images/pub-lish.png";
+import pubLish from "../images/pubLish.png"
 import JUO from "../images/JUO.png";
 import gbs from "../images/gbs.png"
+
+
 function Projects() {
 return(
     <div className="d-flex flex-wrap justify-content-around">
