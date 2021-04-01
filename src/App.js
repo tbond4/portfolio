@@ -10,7 +10,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <BrowserRouter>
-    
+    <div style={{backgroundColor:"black", scrollbarColor:"#6b5ebf black"}}>
     <Header/>
     <Nav/>
     <Switch>
@@ -18,9 +18,8 @@ function App() {
     <Route exact path="/AboutMe" component={AboutMe}/>
     <Route exact path="/Projects" component={Projects}/>
     </Switch>
-    
     <Footer/>
-   
+    </div>
     </BrowserRouter>
   );
 }

@@ -2,10 +2,10 @@ import LinkList from "../components/LinkList";
 
 function AboutMe(){
 return (
-    <div className="d-flex mb-5 justify-content-between" style={{color:"#f0f1ed",backgroundColor:"#939393"}}>
+    <div className="d-flex mb-5 justify-content-between" style={{color:"#f0f1ed",backgroundColor:"black"}}>
 
-    <div className="card col-9 mb-5"style={{color:"#f0f1ed",backgroundColor:"#939393"}}>
-        <div className="card-header">
+    <div className="card col-9 mb-5"style={{color:"#f0f1ed",backgroundColor:"black"}}>
+        <div className="card-header" style={{backgroundColor:"#5d88ba"}}>
             About Me
         </div>
          <div className="card-body" style={{color:"#F0F1ED",backgroundColor:"#6b5ebf"}}>
@@ -13,6 +13,7 @@ return (
             began by studying Engineering before making the swith to Philosophy after two years. Fascinated by perspective exploration of consciouness my studies
             optimized my criticial and logical thinking. These skills flowed nicely into my web development education and hopefully will continue to help me
             as I go into my new career field.
+            <br/>
             <br/>
                 My story as person started from growing up in a small town in Washington State. Team sports and school were my focus before finding a love of cycling
             that has stayed with me ever since. College took me to Colorado where my cycling and hiking passions followed and I found a new passion in mindfullness meditation.

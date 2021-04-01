@@ -3,7 +3,7 @@ import workoutBuddies from "../images/workout-buddies.png";
 import LinkList from "../components/LinkList";
 function Home(){
 return (
-<div className="d-flex justify-content-between flex-wrap-wrap">
+<div className="d-flex justify-content-between flex-wrap-wrap" style={{backgroundColor:"black"}}>
 
     <ProjectCard 
         title="Workout-Buddies"

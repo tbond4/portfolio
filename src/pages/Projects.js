@@ -7,7 +7,7 @@ import gbs from "../images/gbs.png"
 
 function Projects() {
 return(
-    <div className="d-flex flex-wrap justify-content-around">
+    <div className="d-flex flex-wrap justify-content-around" style={{backgroundColor:"black"}} >
     <ProjectCard 
     title="Workout-Buddies"
     desc="Allows authenticated users to create, edit and delete their own workouts as well as view and save workouts created by other users."

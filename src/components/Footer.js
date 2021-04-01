@@ -1,6 +1,6 @@
 function Footer(){
 return (
-<ul className="nav justify-content-center"style={{color:"#f0f1ed",backgroundColor:"#6b5ebf",bottom:"0",width:"100vw",marginTop:"1%"}}>
+<ul className="nav justify-content-center"style={{color:"#f0f1ed",backgroundColor:"#6b5ebf",margin:"0",width:"100vw"}}>
 <li className="nav-item">
   <a className="nav-link active" href="https://www.linkedin.com/in/tristanbond/"style={{color:"#f0f1ed"}}>LinkedIn</a>
 </li>
