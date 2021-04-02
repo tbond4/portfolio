@@ -30,10 +30,10 @@ return (
             <blockquote className="blockquote mb-0">
             <p>
             {' '}
-             Who you could be is more important than who you are.{' '}
+             Hope is the belief that this moment isnt's good enough.{' '}
             </p>
             <footer className="blockquote-footer">
-            <cite title="Source Title">Jordan Peterson</cite>
+            <cite title="Source Title">Naval Ravikant</cite>
             </footer>
             </blockquote>
         </Card.Body>
