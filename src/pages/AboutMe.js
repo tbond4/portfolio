@@ -12,7 +12,7 @@ return (
         </div>
          <div className="card-body" style={{color:"#F0F1ED",backgroundColor:"#6b5ebf"}}>
                 Hello! I am a recent graduate of Colorado State University and the University of Washingtons Full-Stack coding bootcamp. My time in Colorado 
-            began by studying Engineering before making the swith to Philosophy after two years. Fascinated by perspective and exploration of consciouness my studies
+            began by studying Engineering before making the switch to Philosophy after two years. Fascinated by perspective and exploration of consciouness my studies
             optimized my criticial and logical thinking. These skills flowed nicely into my web development education and hopefully will continue to help me
             as I go into my new career field.
             <br/>
