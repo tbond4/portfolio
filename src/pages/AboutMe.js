@@ -4,7 +4,7 @@ function AboutMe(){
 return (
     <div className="d-flex mb-5 justify-content-between" style={{color:"#f0f1ed",backgroundColor:"black"}}>
 
-    <div className="card col-9 mb-5"style={{color:"#f0f1ed",backgroundColor:"black"}}>
+    <div className="card col-9 mb-5"style={{color:"#f0f1ed",backgroundColor:"black",margin:"1%"}}>
         <div className="card-header" style={{backgroundColor:"#5d88ba"}}>
             About Me
         </div>

@@ -5,7 +5,7 @@ function LinkList(){
 
     return(
 
-      <ListGroup >
+      <ListGroup style={{marginTop:"1%"}} >
       <ListGroup.Item style={{backgroundColor:"#5d88ba",color:"white",borderColor:"#735170"}} action href="https://www.linkedin.com/in/tristanbond/">
         LinkedIn
       </ListGroup.Item>
