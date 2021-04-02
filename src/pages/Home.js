@@ -15,7 +15,8 @@ return (
         link="https://join-us-outside.herokuapp.com/"
         codeLink="https://github.com/epowelldev/p03-outdoor-activity-app"
     />
-    <Card style={{backgroundColor:"#5d88ba",margin:"1%",borderColor:"#6b5ebf",}}>
+    <div style={{display:"flex", justifyContent:"space-between",padding:"0 5%"}}>
+    <Card style={{backgroundColor:"#5d88ba",margin:"1%",borderColor:"#6b5ebf",marginRight:"3%"}}>
         <Card.Img src={self} alt="cite author"/>
         <Card.Body style={{display:"flex",flexDirection:"column",justifyContent:"space-evenly",alignItems:"center"}}>
         <Button href="/projects" style={{backgroundColor:"#6b5ebf",borderRadius:"20px",width:"200px"}}>More Projects</Button>
@@ -23,8 +24,9 @@ return (
         <Button href="/aboutMe" style={{backgroundColor:"#6b5ebf",borderRadius:"20px",width:"200px"}}>More About Me</Button>
         </Card.Body>
     </Card>
-    {/* <SelfPic/> */}
+
     <LinkList/>
+    </div>
 </div>
 )
 }
