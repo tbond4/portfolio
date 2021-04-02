@@ -30,7 +30,7 @@ return (
             <blockquote className="blockquote mb-0">
             <p>
             {' '}
-             Hope is the belief that this moment isnt's good enough.{' '}
+             Hope is the belief that this moment isn't good enough.{' '}
             </p>
             <footer className="blockquote-footer">
             <cite title="Source Title">Naval Ravikant</cite>
